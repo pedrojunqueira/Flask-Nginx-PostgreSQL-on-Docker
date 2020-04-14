@@ -1,0 +1,14 @@
+# exclude env files if you want to protect your passwords and evironment variables
+#.env
+#.env.db
+
+# python environement
+venv
+
+# other stuff
+.vscode
+__pycache__
+.DS_Store
+
+# exclude notes file
+docker_commands.txt
