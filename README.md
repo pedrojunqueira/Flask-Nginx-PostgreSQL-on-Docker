@@ -1,6 +1,6 @@
 An example of a simple flask application which runs an API end point which you can perform CRUD (Create, Read, Update and Delete) operations on a PostgreSQL DB back end.
 
-The application is containerized using Docker containers and Docker compose orchestrate the containers
+The application is containerized using Docker containers and Docker compose to orchestrate the containers
 
 The application runs in 3 containers 
 
@@ -9,6 +9,12 @@ The application runs in 3 containers
 - DB (PostgreSQL)
 
 to use just perform the following bash commands on your terminal
+
+clone repository `git clone https://github.com/pedrojunqueira/Flask-Nginx-PostgreSQL-on-Docker.git`
+
+CD into the directory
+
+`cd Flask-Nginx-PostgreSQL-on-Docker`
 
 **Note** : You have to have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your machine
 
