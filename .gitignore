@@ -12,3 +12,6 @@ __pycache__
 
 # exclude notes file
 docker_commands.txt
+# exclude python
+
+post_via_python.py

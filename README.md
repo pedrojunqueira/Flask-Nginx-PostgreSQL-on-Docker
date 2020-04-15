@@ -35,15 +35,16 @@ Make a post request to the `http://localhost:1337/cars` end point passing a json
 ``` py
 # example post method
 import requests
+import json
 
 url = "http://localhost:1337/cars"
 
-payload = "{ "name": "Mercedes Benz","model": "C63","doors": 4}"
+payload = {"name": "Mercedes Benz", "model": "C63", "doors": 4}
 headers = {
-  'Content-Type': 'application/json',
+  'Content-Type': 'application/json'
 }
 
-response = requests.request("GET", url, headers=headers, data = payload)
+response = requests.post(url, headers=headers, data=json.dumps(payload))
 
 print(response.text.encode('utf8'))
 
